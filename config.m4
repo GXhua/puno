@@ -11,17 +11,16 @@ if test "$PHP_PUNO" != "no"; then
   fi
 
   
-  AC_CACHE_CHECK([for OpenOffice.org URE types.rdb ], puno_cv_types_rdb_path,
+ AC_CACHE_CHECK([for OpenOffice.org URE types.rdb ], puno_cv_types_rdb_path,
   [
-  	puno_cv_types_rdb_path="no"
-  	if test -f "$OO_SDK_URE_HOME/share/misc/types.rdb"; then  	
-  		puno_cv_types_rdb_path="$OO_SDK_URE_HOME/share/misc/types.rdb"
-  	fi
-  	if test -f "$OO_URE_TYPES_RDB_PATH"; then  	
-  		puno_cv_types_rdb_path="$OO_URE_TYPES_RDB_PATH"
-  	fi
-  ])
-  
+        puno_cv_types_rdb_path="no"
+        if test -f "$OFFICE_PROGRAM_PATH/types.rdb"; then       
+                puno_cv_types_rdb_path="$OFFICE_PROGRAM_PATH/types.rdb"
+        fi
+        
+  ]) 
+
+ 
   if test "$puno_cv_types_rdb_path" = "no"; then
     AC_MSG_ERROR([ File types.rdb could not be found. Check your OO-SDK environment configuration. Alternatively, you can set the shell variable \$OO_URE_TYPES_RDB_PATH with types.rdb fullpath. ])
   fi
@@ -30,20 +29,14 @@ if test "$PHP_PUNO" != "no"; then
   PHP_SUBST(PHP_PUNO_URE_TYPES_RDB_PATH)
 	
   
+ 
   AC_CACHE_CHECK([for OpenOffice.org PROGRAM offapi.rdb ], puno_cv_offapi_rdb_path,
   [
-  	puno_cv_offapi_rdb_path="no"
-  	if test -f "$OFFICE_PROGRAM_PATH/offapi.rdb"; then
-  		puno_cv_offapi_rdb_path="$OFFICE_PROGRAM_PATH/offapi.rdb"
-  	fi
-  	
-  	if test -f "$OFFICE_BASE_PROGRAM_PATH/offapi.rdb"; then
-  		puno_cv_offapi_rdb_path="$OFFICE_BASE_PROGRAM_PATH/offapi.rdb"
-  	fi
-  	
-  	if test -f "$OO_PROGRAM_OFFAPI_RDB_PATH"; then  	
-  		puno_cv_offapi_rdb_path="$OO_PROGRAM_OFFAPI_RDB_PATH"
-  	fi
+        puno_cv_offapi_rdb_path="no"                                                             
+        if test -f "$OFFICE_PROGRAM_PATH/types/offapi.rdb"; then
+                puno_cv_offapi_rdb_path="$OFFICE_PROGRAM_PATH/types/offapi.rdb"                  
+        fi                                                                                       
+                                                                                                 
   ])
 	
   if test "$puno_cv_offapi_rdb_path" = "no"; then

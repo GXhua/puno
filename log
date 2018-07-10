@@ -1,0 +1,114 @@
+In file included from /src/puno55/puno.cpp:21:0:
+/src/puno55/puno_converters.cpp:20:22: warning: extra tokens at end of #include directive [enabled by default]
+ #include <php_puno.h>;
+                      ^
+In file included from /src/puno55/puno.cpp:20:0:
+/src/puno55/puno_class.cpp: In function ‘int puno_class_call_method(const char*, int, zval*, zval**, zval*, int)’:
+/src/puno55/puno_class.cpp:80:2: warning: ‘void php_set_error_handling(zend_error_handling_t, zend_class_entry*)’ is deprecated (declared at /xinhua/php55/include/php/main/php.h:293) [-Wdeprecated-declarations]
+  php_set_error_handling(EH_THROW, zend_exception_get_default() TSRMLS_CC);
+  ^
+/src/puno55/puno_class.cpp:80:73: warning: ‘void php_set_error_handling(zend_error_handling_t, zend_class_entry*)’ is deprecated (declared at /xinhua/php55/include/php/main/php.h:293) [-Wdeprecated-declarations]
+  php_set_error_handling(EH_THROW, zend_exception_get_default() TSRMLS_CC);
+                                                                         ^
+/src/puno55/puno_class.cpp:81:2: warning: ‘void php_set_error_handling(zend_error_handling_t, zend_class_entry*)’ is deprecated (declared at /xinhua/php55/include/php/main/php.h:293) [-Wdeprecated-declarations]
+  php_set_error_handling(EH_NORMAL, NULL TSRMLS_CC);
+  ^
+/src/puno55/puno_class.cpp:81:50: warning: ‘void php_set_error_handling(zend_error_handling_t, zend_class_entry*)’ is deprecated (declared at /xinhua/php55/include/php/main/php.h:293) [-Wdeprecated-declarations]
+  php_set_error_handling(EH_NORMAL, NULL TSRMLS_CC);
+                                                  ^
+In file included from /src/puno55/puno.cpp:21:0:
+/src/puno55/puno_converters.cpp: In function ‘zval* create_zval_from_any(com::sun::star::uno::Any)’:
+/src/puno55/puno_converters.cpp:145:69: warning: ‘virtual com::sun::star::uno::Reference<com::sun::star::uno::XInterface> com::sun::star::lang::XSingleServiceFactory::createInstanceWithArguments(const com::sun::star::uno::Sequence<com::sun::star::uno::Any>&)’ is deprecated (declared at /src/puno55/.libs/puno_automatic_generated/inc/types/com/sun/star/lang/XSingleServiceFactory.hdl:22) [-Wdeprecated-declarations]
+       (*x_service_factory_p)->createInstanceWithArguments (arguments),UNO_QUERY
+                                                                     ^
+In file included from /src/puno55/puno.cpp:19:0:
+/src/puno55/puno_functions.cpp: In function ‘void zif_get_remote_xcomponent(int, zval*, zval**, zval*, int)’:
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:104:2: note: in expansion of macro ‘PUNO_DEBUG’
+  PUNO_DEBUG("get_remote_xcomponent - %d<BR>", time(NULL));
+  ^
+In file included from /src/puno55/puno.cpp:22:0:
+/src/puno55/puno_functions.cpp:117:42: error: ‘createSimpleRegistry’ is not a member of ‘cppu’
+   Reference< XSimpleRegistry > registry( ::cppu::createSimpleRegistry() );
+                                          ^
+In file included from /src/puno55/puno.cpp:19:0:
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:124:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG( "rdb_component_path - %d<BR>", time(NULL));
+   ^
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:134:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("x_simple_registry->isValid(): %d<BR>", time(NULL));
+   ^
+In file included from /src/puno55/puno.cpp:22:0:
+/src/puno55/puno_functions.cpp:145:5: error: ‘bootstrap_InitialComponentContext’ is not a member of ‘cppu’
+     ::cppu::bootstrap_InitialComponentContext( registry ) );
+     ^
+In file included from /src/puno55/puno.cpp:19:0:
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:149:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("::cppu::bootstrap_InitialComponentContext( x_simple_registry ) - %d<BR>\n", time(NULL));
+   ^
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:163:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("x_compnt_fact_cli - %d<BR>", time(NULL));
+   ^
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:172:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("Reference< XUnoUrlResolver > resolver( x_iface, UNO_QUERY )  - %d<BR>", time(NULL));
+   ^
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:178:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("x_iface = Reference< XInterface >( resolver->resolve( sConnectionString ), UNO_QUERY  - %d<BR>", time(NULL));
+   ^
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:190:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("x_compnt_fact_server - %d<BR>", time(NULL));
+   ^
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:207:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("x_compnt_loader - %d<BR>", time(NULL));
+   ^
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:227:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("x_service_factory_p - %d<BR>", time(NULL));
+   ^
+In file included from /src/puno55/puno.cpp:22:0:
+/src/puno55/puno_functions.cpp:245:72: warning: ‘virtual com::sun::star::uno::Reference<com::sun::star::uno::XInterface> com::sun::star::lang::XSingleServiceFactory::createInstanceWithArguments(const com::sun::star::uno::Sequence<com::sun::star::uno::Any>&)’ is deprecated (declared at /src/puno55/.libs/puno_automatic_generated/inc/types/com/sun/star/lang/XSingleServiceFactory.hdl:22) [-Wdeprecated-declarations]
+     (*remote_service_factory_p)->createInstanceWithArguments (arguments), UNO_QUERY
+                                                                        ^
+In file included from /src/puno55/puno.cpp:19:0:
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno_functions.cpp:279:3: note: in expansion of macro ‘PUNO_DEBUG’
+   PUNO_DEBUG("x_idl_reflect - %d<BR>", time(NULL));
+   ^
+/src/puno55/puno.cpp: In function ‘int zm_activate_puno(int, int)’:
+./php_puno.h:114:93: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘time_t {aka long int}’ [-Wformat=]
+ #define PUNO_DEBUG( message, ...) if(PUNO_G(debug_mode)) { php_printf( message, __VA_ARGS__ ); }
+                                                                                             ^
+/src/puno55/puno.cpp:131:2: note: in expansion of macro ‘PUNO_DEBUG’
+  PUNO_DEBUG("PHP_RINIT_FUNCTION(puno) - %d<BR>", time(NULL));
+  ^
+make: *** [puno.lo] 错误 1

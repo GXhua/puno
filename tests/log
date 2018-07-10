@@ -1,0 +1,875 @@
+execve("/home/guoxinhua/bin/php", ["php", "pdf.php"], [/* 39 vars */]) = 0
+brk(0)                                  = 0x150e000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d7000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/lib/tls/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/lib/tls/x86_64", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/lib/tls/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/lib/tls", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/lib/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/lib/x86_64", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/lib/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/tls/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/tls/x86_64", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/tls/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/tls", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/x86_64", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/opt/libreoffice6.0/sdk/../program/tls/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/../program/tls/x86_64", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/tls/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/../program/tls", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/../program/x86_64", 0x7ffe90ade470) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/libreoffice6.0/sdk/../program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+open("./tls/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=120590, ...}) = 0
+mmap(NULL, 120590, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9b0b7b9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0b39c000
+mprotect(0x7f9b0b3b3000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b0b5b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f9b0b5b3000
+mmap(0x7f9b0b5b5000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b5b5000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libm.so.6", O_RDONLY|O_CLOEXEC)   = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1071552, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7b8000
+mmap(NULL, 3166568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0b096000
+mprotect(0x7f9b0b19b000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b0b39a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x104000) = 0x7f9b0b39a000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libdl.so.2", O_RDONLY|O_CLOEXEC)  = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0ae92000
+mprotect(0x7f9b0ae95000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b0b094000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f9b0b094000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libxml2.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libxml2.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libxml2.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\306\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1820600, ...}) = 0
+mmap(NULL, 3920856, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0aad4000
+mprotect(0x7f9b0ac87000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b0ae87000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b3000) = 0x7f9b0ae87000
+mmap(0x7f9b0ae90000, 5080, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b0ae90000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/local/openssl/lib/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=387272, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7b7000
+mmap(NULL, 2482576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0a875000
+mprotect(0x7f9b0a8ca000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b0aaca000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x55000) = 0x7f9b0aaca000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/local/openssl/lib/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\356\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1934624, ...}) = 0
+mmap(NULL, 4044952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0a499000
+mprotect(0x7f9b0a64c000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b0a84b000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b2000) = 0x7f9b0a84b000
+mmap(0x7f9b0a871000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b0a871000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libiconv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libiconv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200$\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1420021, ...}) = 0
+mmap(NULL, 3035416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0a1b3000
+mprotect(0x7f9b0a297000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b0a496000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe3000) = 0x7f9b0a496000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libc.so.6", O_RDONLY|O_CLOEXEC)   = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1857312, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7b6000
+mmap(NULL, 3965632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b09dea000
+mprotect(0x7f9b09fa8000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b0a1a8000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1be000) = 0x7f9b0a1a8000
+mmap(0x7f9b0a1ae000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b0a1ae000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7b5000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7b3000
+arch_prctl(ARCH_SET_FS, 0x7f9b0b7b3740) = 0
+mprotect(0x7f9b0a1a8000, 16384, PROT_READ) = 0
+mprotect(0x7f9b0a496000, 8192, PROT_READ) = 0
+mprotect(0x7f9b0b094000, 4096, PROT_READ) = 0
+mprotect(0x7f9b0a84b000, 110592, PROT_READ) = 0
+mprotect(0x7f9b0aaca000, 12288, PROT_READ) = 0
+mprotect(0x7f9b0b39a000, 4096, PROT_READ) = 0
+mprotect(0x7f9b0b5b3000, 4096, PROT_READ) = 0
+mprotect(0xf10000, 667648, PROT_READ)   = 0
+mprotect(0x7f9b0b7d9000, 4096, PROT_READ) = 0
+munmap(0x7f9b0b7b9000, 120590)          = 0
+brk(0)                                  = 0x150e000
+brk(0x152f000)                          = 0x152f000
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f9b09e20cb0}, {SIG_DFL, [], 0}, 8) = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b772000
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b671000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9b09708000
+close(3)                                = 0
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\2\0\0\0\0"..., 4096) = 388
+lseek(3, -240, SEEK_CUR)                = 148
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 240
+close(3)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+lstat("/usr/bin/php", 0x7ffe90adb6f0)   = -1 ENOENT (No such file or directory)
+lstat("/usr/bin/php", 0x7ffe90adb6f0)   = -1 ENOENT (No such file or directory)
+lstat("/bin/php", 0x7ffe90adb6f0)       = -1 ENOENT (No such file or directory)
+lstat("/bin/php", 0x7ffe90adb6f0)       = -1 ENOENT (No such file or directory)
+lstat("/usr/bin/php", 0x7ffe90adb6f0)   = -1 ENOENT (No such file or directory)
+lstat("/usr/bin/php", 0x7ffe90adb6f0)   = -1 ENOENT (No such file or directory)
+lstat("/opt/libreoffice6.0/sdk/bin/php", 0x7ffe90adb6f0) = -1 ENOENT (No such file or directory)
+lstat("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/bin/php", 0x7ffe90adb6f0) = -1 ENOENT (No such file or directory)
+lstat("/opt/libreoffice6.0/sdk/../program/php", 0x7ffe90adb6f0) = -1 ENOENT (No such file or directory)
+lstat("/opt/libreoffice6.0/sdk/../program/php", 0x7ffe90adb6f0) = -1 ENOENT (No such file or directory)
+lstat("/home/guoxinhua/bin/php", {st_mode=S_IFLNK|0777, st_size=21, ...}) = 0
+readlink("/home/guoxinhua/bin/php", "/xinhua/php55/bin/php", 4096) = 21
+lstat("/xinhua/php55/bin/php", {st_mode=S_IFREG|0755, st_size=32889136, ...}) = 0
+lstat("/xinhua/php55/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/xinhua/php55", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/xinhua", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/xinhua/php55/bin/php", X_OK)   = 0
+stat("/xinhua/php55/bin/php", {st_mode=S_IFREG|0755, st_size=32889136, ...}) = 0
+open("/xinhua/php55/bin/php-cli.ini", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/xinhua/php55/lib/php-cli.ini", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/xinhua/php55/bin/php.ini", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/xinhua/php55/lib/php.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffe90adc460) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=384, ...}) = 0
+mmap(NULL, 416, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9b0b7d6000
+fstat(3, {st_mode=S_IFREG|0644, st_size=384, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d5000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7f9b0b7d6000, 416)             = 0
+close(3)                                = 0
+munmap(0x7f9b0b7d5000, 4096)            = 0
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b622000
+brk(0x1550000)                          = 0x1550000
+brk(0x1571000)                          = 0x1571000
+brk(0x1592000)                          = 0x1592000
+open("/xinhua/php55/lib/php/extensions/no-debug-non-zts-20121212/swoole_encrypt.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\230\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=696882, ...}) = 0
+mmap(NULL, 2312896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b094d3000
+mprotect(0x7f9b094fd000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b096fc000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7f9b096fc000
+mmap(0x7f9b09700000, 31424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b09700000
+close(3)                                = 0
+mprotect(0x7f9b096fc000, 12288, PROT_READ) = 0
+open("/xinhua/php55/lib/php/extensions/no-debug-non-zts-20121212/vld.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@.\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=131270, ...}) = 0
+mmap(NULL, 2134848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b092c9000
+mprotect(0x7f9b092d1000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b094d0000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f9b094d0000
+close(3)                                = 0
+mprotect(0x7f9b094d0000, 8192, PROT_READ) = 0
+open("/xinhua/php55/lib/php/extensions/no-debug-non-zts-20121212/puno.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1078146, ...}) = 0
+mmap(NULL, 2344752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0908c000
+mprotect(0x7f9b090c8000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b092c7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3b000) = 0x7f9b092c7000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libuno_cppuhelpergcc3.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libuno_cppuhelpergcc3.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libuno_cppuhelpergcc3.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\253\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1056952, ...}) = 0
+mmap(NULL, 3155232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b08d89000
+mprotect(0x7f9b08e80000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b0907f000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf6000) = 0x7f9b0907f000
+mmap(0x7f9b0908b000, 1312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b0908b000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libuno_cppu.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libuno_cppu.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libuno_cppu.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220[\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+mmap(NULL, 2350048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b08b4b000
+mprotect(0x7f9b08b88000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b08d88000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3d000) = 0x7f9b08d88000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libuno_sal.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libuno_sal.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libuno_sal.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0207\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=352144, ...}) = 0
+mmap(NULL, 2485648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b088ec000
+mprotect(0x7f9b0893f000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b08b3e000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x52000) = 0x7f9b08b3e000
+mmap(0x7f9b08b42000, 36240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b08b42000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=120590, ...}) = 0
+mmap(NULL, 120590, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9b0b7b9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \266\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=979056, ...}) = 0
+mmap(NULL, 3159040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b085e8000
+mprotect(0x7f9b086ce000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b088cd000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe5000) = 0x7f9b088cd000
+mmap(0x7f9b088d7000, 82944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b088d7000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=90160, ...}) = 0
+mmap(NULL, 2186016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b083d2000
+mprotect(0x7f9b083e8000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b085e7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f9b085e7000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/../program/libreglo.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260=\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=108296, ...}) = 0
+mmap(NULL, 2203248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b081b8000
+mprotect(0x7f9b081d2000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b083d1000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f9b083d1000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/../program/libuno_salhelpergcc3.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=29560, ...}) = 0
+mmap(NULL, 2124456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b07fb1000
+mprotect(0x7f9b07fb8000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b081b7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f9b081b7000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/../program/libunoidllo.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\266\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=404528, ...}) = 0
+mmap(NULL, 2499480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b07d4e000
+mprotect(0x7f9b07daf000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b07faf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x61000) = 0x7f9b07faf000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/../program/libxmlreaderlo.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=41480, ...}) = 0
+mmap(NULL, 2136448, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b07b44000
+mprotect(0x7f9b07b4e000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b07d4d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f9b07d4d000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/../program/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0po\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=141574, ...}) = 0
+mmap(NULL, 2217264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b07926000
+mprotect(0x7f9b0793f000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b07b3e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f9b07b3e000
+mmap(0x7f9b07b40000, 13616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9b07b40000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/../program/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("librt.so.1", O_RDONLY|O_CLOEXEC)  = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31792, ...}) = 0
+mmap(NULL, 2129016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b0771e000
+mprotect(0x7f9b07725000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b07924000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f9b07924000
+close(3)                                = 0
+open("/opt/libreoffice6.0/sdk/../program/libstorelo.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pU\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=119848, ...}) = 0
+mmap(NULL, 2214832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9b07501000
+mprotect(0x7f9b0751c000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b0771c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f9b0771c000
+close(3)                                = 0
+mprotect(0x7f9b088cd000, 32768, PROT_READ) = 0
+mprotect(0x7f9b07b3e000, 4096, PROT_READ) = 0
+mprotect(0x7f9b07924000, 4096, PROT_READ) = 0
+mprotect(0x7f9b092c7000, 4096, PROT_READ) = 0
+set_tid_address(0x7f9b0b7b3a10)         = 5066
+set_robust_list(0x7f9b0b7b3a20, 24)     = 0
+futex(0x7ffe90add220, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f9b0b7b3740) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f9b0792c9f0, [], SA_RESTORER|SA_SIGINFO, 0x7f9b07936330}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f9b0792ca80, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f9b07936330}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+futex(0x7f9b088e994c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f9b088e9958, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+munmap(0x7f9b0b7b9000, 120590)          = 0
+brk(0x15b3000)                          = 0x15b3000
+brk(0x15d4000)                          = 0x15d4000
+brk(0x15f5000)                          = 0x15f5000
+brk(0x1616000)                          = 0x1616000
+brk(0x1637000)                          = 0x1637000
+brk(0x1658000)                          = 0x1658000
+brk(0x1679000)                          = 0x1679000
+brk(0x169a000)                          = 0x169a000
+brk(0x16bb000)                          = 0x16bb000
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0x16dc000)                          = 0x16dc000
+brk(0x16fd000)                          = 0x16fd000
+brk(0x171e000)                          = 0x171e000
+brk(0x173f000)                          = 0x173f000
+brk(0x1763000)                          = 0x1763000
+brk(0x1784000)                          = 0x1784000
+open("pdf.php", O_RDONLY)               = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2071, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(3, "<?\n\n$data = date(\"r\");\n\necho \" <"..., 4096) = 2071
+lseek(3, 0, SEEK_SET)                   = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/src/puno55/tests/pdf.php", {st_mode=S_IFREG|0644, st_size=2071, ...}) = 0
+lstat("/src/puno55/tests", {st_mode=S_IFDIR|0755, st_size=170, ...}) = 0
+lstat("/src/puno55", {st_mode=S_IFDIR|0755, st_size=1632, ...}) = 0
+lstat("/src", {st_mode=S_IFDIR|0755, st_size=2822, ...}) = 0
+rt_sigaction(SIGPROF, {0x727200, [PROF], SA_RESTORER|SA_RESTART, 0x7f9b09e20cb0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [PROF], NULL, 8) = 0
+write(1, "PHP_RINIT_FUNCTION(puno) - 15311"..., 41) = 41
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d5000
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d4000
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+getcwd("/src/puno55/tests", 4096)       = 18
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffe90adb280) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=2071, ...}) = 0
+mmap(NULL, 2103, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9b0b7d3000
+munmap(0x7f9b0b7d3000, 2103)            = 0
+close(3)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+write(1, "\nWarning: date(): It is not safe"..., 436) = 436
+write(1, " <BR>Started at: Mon, 09 Jul 201"..., 52) = 52
+write(1, "get_remote_xcomponent - 15311214"..., 38) = 38
+getcwd("/src/puno55/tests", 4096)       = 18
+futex(0x7f9b08b41680, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppuhelpergcc3.so.3", {st_mode=S_IFREG|0755, st_size=1056952, ...}) = 0
+futex(0x7f9b08b4aa20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+access("/opt/libreoffice6.0/program/unorc", F_OK) = 0
+open("/opt/libreoffice6.0/program/unorc", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=239, ...}) = 0
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7c4000
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b612000
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b602000
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9b06d00000
+mprotect(0x7f9b06d00000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9b074fffb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9b075009d0, tls=0x7f9b07500700, child_tidptr=0x7f9b075009d0) = 5070
+futex(0x7f9b08b464a0, FUTEX_WAKE_PRIVATE, 1) = 1
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b5f2000
+pread(3, "[Bootstrap]\nURE_INTERNAL_LIB_DIR"..., 4096, 0) = 239
+close(3)                                = 0
+open("rc", O_RDONLY)                    = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=74, ...}) = 0
+pread(3, "URE_MORE_TYPES=file:///opt/libre"..., 4096, 0) = 74
+close(3)                                = 0
+open("/opt/libreoffice6.0/program/services.rdb", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=8741, ...}) = 0
+mmap(NULL, 8741, PROT_READ, MAP_SHARED, 3, 0) = 0x7f9b0b7c1000
+munmap(0x7f9b0b7c1000, 8741)            = 0
+close(3)                                = 0
+access("/opt/libreoffice6.0/program/types.rdb", F_OK) = 0
+lstat("/opt/libreoffice6.0/program/types.rdb", {st_mode=S_IFREG|0644, st_size=57362, ...}) = 0
+open("/opt/libreoffice6.0/program/types.rdb", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=57362, ...}) = 0
+mmap(NULL, 57362, PROT_READ, MAP_SHARED, 3, 0) = 0x7f9b0b5e3000
+gettid()                                = 5066
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+open("/opt/libreoffice6.0/program/libgcc3_uno.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\00009\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=65600, ...}) = 0
+mmap(NULL, 2160760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9b06af0000
+mprotect(0x7f9b06aff000, 2097152, PROT_NONE) = 0
+mmap(0x7f9b06cff000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xf000) = 0x7f9b06cff000
+close(4)                                = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+brk(0x17a5000)                          = 0x17a5000
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+write(1, "::cppu::bootstrap_InitialCompone"..., 80) = 80
+write(1, "x_compnt_fact_cli - 1531121445<B"..., 34) = 34
+access("/opt/libreoffice6.0/program/unorc", F_OK) = 0
+open("/opt/libreoffice6.0/program/libuuresolverlo.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0004\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=33992, ...}) = 0
+mmap(NULL, 2129120, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9b068e8000
+mprotect(0x7f9b068f0000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b06aef000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x7000) = 0x7f9b06aef000
+close(4)                                = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+write(1, "Reference< XUnoUrlResolver > res"..., 77) = 77
+open("/opt/libreoffice6.0/program/libiolo.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2603\1\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=278216, ...}) = 0
+mmap(NULL, 2373688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9b066a4000
+mprotect(0x7f9b066e2000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b068e1000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3d000) = 0x7f9b068e1000
+close(4)                                = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 4
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "# Dynamic resolv.conf(5) file fo"..., 4096) = 190
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(5)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(5)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+open("/opt/libreoffice6.0/sdk/lib/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/guoxinhua/libreoffice6.0_sdk/LINUXexample.out/lib/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/libreoffice6.0/sdk/../program/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/x86_64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./tls/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./x86_64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("./libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=120590, ...}) = 0
+mmap(NULL, 120590, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7f9b06686000
+close(5)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=43616, ...}) = 0
+mmap(NULL, 2139944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f9b0647b000
+mprotect(0x7f9b06485000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b06684000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x9000) = 0x7f9b06684000
+close(5)                                = 0
+mprotect(0x7f9b06684000, 4096, PROT_READ) = 0
+munmap(0x7f9b06686000, 120590)          = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "# The \"order\" line is only used "..., 4096) = 92
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+futex(0x7f9b0a1b13d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=296, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "127.0.0.1\tlocalhost\n127.0.0.1 gu"..., 4096) = 296
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "# Dynamic resolv.conf(5) file fo"..., 4096) = 190
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=296, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "127.0.0.1\tlocalhost\n127.0.0.1 gu"..., 4096) = 296
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+fcntl(4, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(4, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(4, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(2083), sin_addr=inet_addr("127.0.0.1")}, 16) = -1 EINPROGRESS (Operation now in progress)
+select(5, NULL, [4], [4], NULL)         = 1 (out [4])
+getsockopt(4, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+fcntl(4, F_GETFL)                       = 0x802 (flags O_RDWR|O_NONBLOCK)
+fcntl(4, F_SETFL, O_RDWR)               = 0
+setsockopt(4, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+getpeername(4, {sa_family=AF_INET, sin_port=htons(2083), sin_addr=inet_addr("127.0.0.1")}, [16]) = 0
+getpeername(4, {sa_family=AF_INET, sin_port=htons(2083), sin_addr=inet_addr("127.0.0.1")}, [16]) = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=296, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "127.0.0.1\tlocalhost\n127.0.0.1 gu"..., 4096) = 296
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=296, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "127.0.0.1\tlocalhost\n127.0.0.1 gu"..., 4096) = 296
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(43437), sin_addr=inet_addr("127.0.0.1")}, [16]) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=296, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "127.0.0.1\tlocalhost\n127.0.0.1 gu"..., 4096) = 296
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=296, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+read(5, "127.0.0.1\tlocalhost\n127.0.0.1 gu"..., 4096) = 296
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f9b0b7d6000, 4096)            = 0
+open("/opt/libreoffice6.0/program/libbinaryurplo.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\201\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=185368, ...}) = 0
+mmap(NULL, 2280592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f9b0624e000
+mprotect(0x7f9b0627a000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b06479000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2b000) = 0x7f9b06479000
+close(5)                                = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+getcwd("/src/puno55/tests", 4096)       = 18
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/sdk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/opt/libreoffice6.0/program", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+lstat("/opt/libreoffice6.0/program/libuno_cppu.so.3", {st_mode=S_IFREG|0755, st_size=254528, ...}) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9b05a4d000
+mprotect(0x7f9b05a4d000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9b0624cfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9b0624d9d0, tls=0x7f9b0624d700, child_tidptr=0x7f9b0624d9d0) = 5073
+futex(0x179ae00, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x179ae28, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x179ae2c, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x179ae00, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x179ae2c, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x179ae28, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+futex(0x179ae00, FUTEX_WAKE_PRIVATE, 1) = 1
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9b0524c000
+mprotect(0x7f9b0524c000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f9b05a4bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f9b05a4c9d0, tls=0x7f9b05a4c700, child_tidptr=0x7f9b05a4c9d0) = 5074
+futex(0x179afb0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x179afd8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x179afdc, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x179afb0, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x179afdc, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x179afd8, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+futex(0x179afb0, FUTEX_WAKE_PRIVATE, 1) = 1
+open("/dev/urandom", O_RDONLY)          = 5
+read(5, "\3\23\237\325", 4)             = 4
+close(5)                                = 0
+open("/dev/urandom", O_RDONLY)          = 5
+read(5, "t\267\305\321\3333n\37\364\271\366-W\234\363B", 16) = 16
+close(5)                                = 0
+futex(0x7f9b08b4aa40, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x179bc14, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x179bc40, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b06694000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7d6000
+mprotect(0x7f9b0b7d6000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+write(1, "x_iface = Reference< XInterface "..., 102) = 102
+futex(0x1797524, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x1797550, 2) = 1
+futex(0x1797550, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x17979d0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x1797170, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1797170, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7c3000
+mprotect(0x7f9b0b7c3000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+futex(0x1797524, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x1797550, 4) = 1
+futex(0x1797550, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x17979d0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x179b144, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x179b170, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7c2000
+mprotect(0x7f9b0b7c2000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+futex(0x1797524, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x1797550, 6) = 1
+futex(0x1797550, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x17979d0, FUTEX_WAKE_PRIVATE, 1) = 1
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7c1000
+mprotect(0x7f9b0b7c1000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+write(1, "x_compnt_fact_server - 153112144"..., 37) = 37
+open("/opt/libreoffice6.0/sdk/../program/libsal_textenclo.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\201\1\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=1687192, ...}) = 0
+mmap(NULL, 3782296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f9b04eb0000
+mprotect(0x7f9b0502b000, 2093056, PROT_NONE) = 0
+mmap(0x7f9b0522a000, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x17a000) = 0x7f9b0522a000
+close(5)                                = 0
+futex(0x1797524, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x1797550, 8) = 1
+futex(0x1797550, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x17979d0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x179c310, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x1797524, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x1797550, 10) = 1
+futex(0x1797550, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x17979d0, FUTEX_WAKE_PRIVATE, 1) = 1
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9b0b7c0000
+mprotect(0x7f9b0b7c0000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x9} ---
++++ killed by SIGSEGV (core dumped) +++

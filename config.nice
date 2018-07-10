@@ -1,0 +1,7 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--with-puno=/opt/libreoffice6.0/sdk/' \
+"$@"

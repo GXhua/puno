@@ -1,0 +1,8 @@
+puno.lo: /src/puno55/puno.cpp
+	$(LIBTOOL) --mode=compile $(CXX)  -I. -I/src/puno55 $(COMMON_FLAGS) $(CXXFLAGS_CLEAN) $(EXTRA_CXXFLAGS)  -c /src/puno55/puno.cpp -o puno.lo 
+$(phplibdir)/puno.la: ./puno.la
+	$(LIBTOOL) --mode=install cp ./puno.la $(phplibdir)
+
+./puno.la: $(shared_objects_puno) $(PUNO_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CXX) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_puno) $(PUNO_SHARED_LIBADD)
+

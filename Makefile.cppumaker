@@ -46,19 +46,7 @@ SDK_ZIP="$(OO_SDK_ZIP_HOME)/zip"
 IDLC="$(OO_SDK_HOME)/bin/idlc"
 CPPUMAKER="$(OO_SDK_HOME)/bin/cppumaker"
 JAVAMAKER="$(OO_SDK_HOME)/bin/javamaker"
-REGMERGE="$(OO_SDK_URE_HOME)/bin/regmerge"
-REGCOMP="$(OO_SDK_URE_HOME)/bin/regcomp"
-
-SDK_JAVA_UNO_BOOTSTRAP_FILES=\
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/Loader.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/Loader$$Drain.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/Loader$$CustomURLClassLoader.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/Loader$$Drain.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/InstallationFinder.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/InstallationFinder$$StreamGobbler.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/WinRegKey.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)com/sun/star/lib/loader/WinRegKeyException.class$(SQM) \
-	-C $(CLASSES_DIR) $(SQM)win/unowinreg.dll$(SQM)
+REGMERGE="$(OFFICE_PROGRAM_PATH)/regmerge"
 
 
 
@@ -82,31 +70,18 @@ TYPESLIST = $(foreach t,$(TYPES),-T$(t))
 
 include $(SETTINGS)/stdtarget.mk
 
-# This library will be extended by the URE and office types
-$(OUT_BIN)/%.rdb :
-	-$(MKDIR) $(subst /,$(PS),$(@D))
-	-$(DEL) $(subst \\,\,$(subst /,$(PS),$@))
-	$(REGMERGE) $@ / $(URE_TYPES) $(OFFICE_TYPES) 
 
-cppumaker : $(COMPOENNT_ENV_FLAG) 
+cppumaker :
 	@echo --------------------------------------------------------------------------------
 	@echo                 Generating C++ representations for idl types.
 	@echo                           THIS MAY TAKE A WHILE!!
 	@echo --------------------------------------------------------------------------------
 	-$(MKDIR) $(subst /,$(PS),$(@D))
 	-$(DEL) $(subst /,$(PS),$(COMPONENT_TYPEFLAG))
-	$(CPPUMAKER) -Gc -BUCR -O$(OUT_COMP_INC)    $(URE_TYPES) $(OFFICE_TYPES)
+	$(CPPUMAKER) -Gc  -O$(OUT_COMP_INC)    $(URE_TYPES) $(OFFICE_TYPES)
 	echo flagged > $@
 	
  
-
-$(COMPOENNT_ENV_FLAG) :  $(COMPONENT_RDB)
-	-$(MKDIR) $(subst /,$(PS),$(@D))
-	-$(DEL) $(subst \\,\,$(subst /,$(PS),$@))
-	@echo --------------------------------------------------------------------------------
-
-	@echo bla > $@
-
 
 
 	
